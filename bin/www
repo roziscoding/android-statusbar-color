@@ -36,9 +36,9 @@ const options = {
 }
 
 spdy.createServer(options, app)
-  .listen(80, (err) => {
+  .listen(process.env.PORT || 80, (err) => {
     if (err) {
       throw new Error(err)
     }
-    console.log('Frontend is listening on port 80.')
+    console.log(`Frontend is listening on port ${process.env.PORT || 80}.`)
   })

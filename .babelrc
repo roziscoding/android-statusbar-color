@@ -1,0 +1,19 @@
+{
+    "env": {
+      "test": {
+        "presets": ["env"]
+      }
+    },
+    "plugins": ["@babel/proposal-object-rest-spread"],
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "chrome": "67"
+          },
+          "modules": false
+        }
+      ]
+    ]
+  }

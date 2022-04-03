@@ -15,7 +15,7 @@
     "@mdi/font": "^2.5.94",
     "babel-preset-env": "^1.7.0",
     "case": "^1.5.5",
-    "node-sass": "^4.9.2",
+    "node-sass": "^7.0.0",
     "object-assign": "^4.1.1",
     "poi": "^10.2.9",
     "promise-polyfill": "^8.0.0",
